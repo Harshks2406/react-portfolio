@@ -1,11 +1,11 @@
 const animateLeftOrRight = (side, delay) => ({
     hidden: {x: side*100, opacity: 0},
-    visible: {x: 0, opacity: 1, transition: {duration: 0.5, delay: delay}}
+    visible: {x: 0, opacity: 1, transition: {duration: 1, delay: delay}}
 })
 
 const animateUpOrDown = (side, delay) => ({
     hidden: {y: side*100, opacity: 0},
-    visible: {y: 0, opacity: 1, transition: {duration: 0.5, delay: delay}}
+    visible: {y: 0, opacity: 1, transition: {duration: 1, delay: delay}}
 })
 
 const animateAfterLeftOrRight = () => ({

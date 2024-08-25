@@ -13,6 +13,19 @@ const animateAfterLeftOrRight = () => ({
     visible: {transition: {duration: 0.5}}
 })
 
+const iconVariants = (duration) => ({
+    initial: {y: -10},
+    animate: {
+        y: [10, -10],
+        transition: {
+            duration: duration,
+            ease: "linear",
+            repeat: Infinity,
+            repeatType: "reverse",
+        },
+    },
+})
 
-export {animateLeftOrRight, animateAfterLeftOrRight, animateUpOrDown}
+
+export {animateLeftOrRight, animateAfterLeftOrRight, animateUpOrDown, iconVariants}
 

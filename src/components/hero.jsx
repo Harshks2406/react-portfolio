@@ -2,6 +2,7 @@ import {HERO_CONTENT} from "../constants"
 import profilePic from "../assets/header-img.svg"
 import { motion } from "framer-motion"
 import { animateLeftOrRight } from "../animation"
+import { iconVariants } from "../animation"
 
 const Hero = () => {
   return (
@@ -18,9 +19,9 @@ const Hero = () => {
             </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-9">
-            <div className="flex justify-center">
+            <motion.div variants={iconVariants(2.8)} initial="initial" animate="animate" className="flex justify-center">
                 <motion.img variants={animateLeftOrRight(1,1)} initial="hidden" animate="visible" src={profilePic} alt="Profile" className="rounded-full" style={{ width: '400px', height: 'auto' }} />
-            </div>
+            </motion.div>
         </div>
     </div>
   </div>

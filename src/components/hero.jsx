@@ -1,4 +1,4 @@
-import {HERO_CONTENT} from "../constants"
+import {HERO_CONTENT, resume_url} from "../constants"
 import profilePic from "../assets/header-img.svg"
 import { motion } from "framer-motion"
 import { animateLeftOrRight } from "../animation"

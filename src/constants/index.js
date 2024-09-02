@@ -1,7 +1,9 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/cafe.png";
 import ppw from "../assets/projects/ppw.png"
 import c19 from "../assets/projects/c19.png"
+
+export const resume_url = 'https://drive.google.com/file/d/1bP9DZ4ksMVXsu9C3HB9WFHysY7TxcQF9/view?usp=sharing'
 
 export const HERO_CONTENT = `I am a passionate software engineer with a strong focus on backend development and a deep understanding of modern technologies. With hands on experience in backend development and API integerations, I am committed to developing innovative solutions and building robust and scalable applications. I am proficient in Python, JavaScript, Flask, Node.js, and various database technologies.`
 
@@ -26,7 +28,8 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Sphere - AI Interview Platform",
+    title: "Sphere: AI Co-Worker for Smart Hiring",
+    link: 'https://whimsical.com/sphere-ai-co-worker-for-smart-hiring-5dnjp8Lem5KQ8yDeBHxtDN',
     image: project1,
     description:
       "Sphere is an AI-driven interview platform designed to streamline hiring for companies and candidates. It features separate portals for job postings, profile management, and AI assessments. Built the backend with Node.js and Flask. Desingned the end-to-end flow of the application, from HR/Recruiter onboarding to AI-driven interview process. Designed and implemented the database schema to support complex job postings, implemented authentication system with passport.js. Deployed on DigitalOcean, used AWS S3 for secure storage of images and resumes.",
@@ -34,6 +37,7 @@ export const PROJECTS = [
   },
   {
     title: "Cafe Web Application",
+    link: 'http://ec2-3-6-254-20.ap-south-1.compute.amazonaws.com:3678',
     image: project2,
     description:
       "Developed a web application for a café that allows customers to order food and beverages online. The application features a menu view, cart functionality, and user authentication and authorization. The frontend is built using HTML, CSS, and Handlebars, while the backend is powered by Node.js and MongoDB. This setup enables users to browse the menu, place orders, and view their previous orders seamlessly.",
@@ -41,6 +45,7 @@ export const PROJECTS = [
   },
   {
     title: "Personal Photography Portfolio Website",
+    link: 'http://ec2-3-6-254-20.ap-south-1.compute.amazonaws.com:2412',
     image: ppw,
     description:
       "A personal photography portfolio website showcasing my photography skills.",
@@ -48,6 +53,7 @@ export const PROJECTS = [
   },
   {
     title: "Covid Live Status",
+    link: 'http://ec2-3-6-254-20.ap-south-1.compute.amazonaws.com:2406',
     image: c19,
     description:
       "I developed a COVID-19 Daily Statistics web application to provide real-time data on daily cases, recoveries, and death tolls both nationally and state-wise. The application uses APIs to fetch and display this information. I implemented asynchronous data fetching with async/await functionality to ensure timely updates. The frontend is designed with HTML, CSS, and Handlebars, while the backend is built with Node.js and Express.js. This setup ensures users receive accurate and up-to-date COVID-19 statistics.",

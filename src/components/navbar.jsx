@@ -4,6 +4,7 @@ import { CgFileDocument } from "react-icons/cg";
 import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion"
 import { animateUpOrDown } from "../animation";
+import { resume_url } from "../constants";
 
 const Navbar = () => {
   return <nav className="mb-20 flex items-center justify-between py-6">
@@ -14,7 +15,7 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/harshkumar2412/" target="_blank"><FaLinkedin /></a> 
         <a href="https://github.com/Harshks2406" target="_blank"><FaGithub /></a>
         <a href="mailto:harshsingh.hks@gmail.com" target="_blank"><MdEmail /></a>
-        <a href="https://drive.google.com/file/d/1bP9DZ4ksMVXsu9C3HB9WFHysY7TxcQF9/view?usp=sharing"  target="_blank"><CgFileDocument /></a>
+        <a href={resume_url} target="_blank"><CgFileDocument /></a>
     </motion.div>
   </nav>
 }

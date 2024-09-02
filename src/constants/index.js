@@ -3,7 +3,7 @@ import project2 from "../assets/projects/cafe.png";
 import ppw from "../assets/projects/ppw.png"
 import c19 from "../assets/projects/c19.png"
 
-export const resume_url = 'https://drive.google.com/file/d/1bP9DZ4ksMVXsu9C3HB9WFHysY7TxcQF9/view?usp=sharing'
+export const resume_url = 'https://drive.google.com/file/d/1zWLP7Vmqcbmmam_Yp-GJJ1FviXfZr8ay/view?usp=sharing'
 
 export const HERO_CONTENT = `I am a passionate software engineer with a strong focus on backend development and a deep understanding of modern technologies. With hands on experience in backend development and API integerations, I am committed to developing innovative solutions and building robust and scalable applications. I am proficient in Python, JavaScript, Flask, Node.js, and various database technologies.`
 
